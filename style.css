@@ -1,0 +1,82 @@
+body {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+header img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px auto 10px;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.menu-category {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.menu-category:hover {
+    transform: scale(1.03);
+}
+
+.category-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+}
+
+.menu-category h2 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.menu-item {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border
